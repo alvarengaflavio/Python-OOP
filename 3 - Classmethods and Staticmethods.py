@@ -40,7 +40,7 @@ class Employee:
         cls.raise_amount = amount
 
 
-emp_1 = Employee('Corey', 'Schafer', 50000)
+emp_1 = Employee('Flavio', 'Alvarenga', 50000)
 emp_2 = Employee('Test', 'User', 60000)
 
 print(Employee.raise_amount)
@@ -68,9 +68,9 @@ emp_1.set_aumento_sal(1.06)  # também funciona para todos mas NÃO se usa
     quebrada e tratada antes de criar, OU SEJA, uma forma de receber essa string e criar um funcionário a partir dela
     retirando as informações dessa única variável.    
 """
-emp_str_1 = 'John-Doe-70000'        # criar o novo funcionário a partir disso
+emp_str_1 = 'Fausto-Silva-70000'        # criar o novo funcionário a partir disso
 emp_str_2 = 'Felipe-Smith-30000'
-emp_str_3 = 'Jane-Doe-90000'
+emp_str_3 = 'Selena-Gomez-90000'
 
 
 class Employee:
