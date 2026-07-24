@@ -55,7 +55,7 @@ print(emp_1.nome_completo())
 
 """
     ************************************************** SETTERS ********************************************************
-    Digamos que queremos poder alterar o nome completo de um funcionário  chamando emp_1.nome_completo = 'Corey Schafer'
+    Digamos que queremos poder alterar o nome completo de um funcionário  chamando emp_1.nome_completo = 'Flavio Alvarenga'
     E ao settar esse nome_completo os atributos first and last, consequentemente o email também devem ser alterados. 
      
     Com setter nós podemos fazer isso. Primeiro marcamos o método nome_completo com @property, em seguida marcamos
@@ -63,7 +63,7 @@ print(emp_1.nome_completo())
     iremos definir outro método com o mesmo nome. Esse método irá settar o novo nome para o objeto através do mesmo 
     valor de atributo da função que imprime o nome completo. Exemplo:  
     
-    Recebendo: emp_1.nome_completo = 'Corey Schafer', o método altera usuário teste para Corey Schafer em todo o objeto. 
+    Recebendo: emp_1.nome_completo = 'Flavio Alvarenga', o método altera usuário teste para Flavio Alvarenga em todo o objeto. 
 """
 
 
@@ -90,7 +90,7 @@ class Employee:
 
 emp_1 = Employee('Usuário', 'Teste')
 
-emp_1.nome_completo = 'Corey Schafer'
+emp_1.nome_completo = 'Flavio Alvarenga'
 
 print(emp_1.first)
 print(emp_1.email)
