@@ -32,9 +32,9 @@ print(emp_2)
     é importante saber a diferença entre elas, aqui será tratado apenas de variáveis de INSTÂNCIA!
     O valor da variável de Instância tem valor ÚNICO para cada instância distinta da classe.
 '''
-emp_1.first = 'Corey'
-emp_1.last = 'Schafer'
-emp_1.email = 'corey.schafer@company.com'
+emp_1.first = 'Flavio'
+emp_1.last = 'Alvarenga'
+emp_1.email = 'flavio.alvarenga@company.com'
 emp_1.pay = 50000
 
 emp_2.first = 'Test'
@@ -76,7 +76,7 @@ class Employee:
 
 # Agora quando criarmos as intâncias logo abaixo, poderemos passar os valores como variáveis ao chamar a classe
 # O self já é passado automaticamente, então só precisamos chamar os nomes e o pagamento
-emp_1 = Employee('Corey', 'Schafer', 50000)
+emp_1 = Employee('Flavio', 'Alvarenga', 50000)
 emp_2 = Employee('Test', 'User', 66600)
 
 
