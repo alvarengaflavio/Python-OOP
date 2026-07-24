@@ -40,7 +40,7 @@ class Employee:
         self.pay = int(self.pay * 1.04)
 
 
-emp_1 = Employee('Corey', 'Schafer', 50000)
+emp_1 = Employee('Flavio', 'Alvarenga', 50000)
 
 print(emp_1.pay)
 emp_1.apply_raise()
@@ -73,7 +73,7 @@ class Employee:
         # Aqui raise_amount pode ser colocada com o self ou a classe como prefixo. self.raise_ ou Employee.raise_
 
 
-emp_1 = Employee('Corey', 'Schafer', 50000)
+emp_1 = Employee('Flavio', 'Alvarenga', 50000)
 emp_2 = Employee('Test', 'User', 60000)
 
 print(Employee.raise_amount)
@@ -129,7 +129,7 @@ class Employee2:
 
 
 print(Employee2.num_of_emps)                    # nenhuma instância criada, valerá zero
-emp2_1 = Employee2('Corey', 'Schafer', 50000)    # um incrimento
+emp2_1 = Employee2('Flavio', 'Alvarenga', 50000)    # um incrimento
 emp2_2 = Employee2('Test', 'User', 60000)        # dois incrementos
 print(Employee2.num_of_emps)
 # https://repl.it/languages/python3
