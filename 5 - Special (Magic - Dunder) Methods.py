@@ -59,7 +59,7 @@ class Employee:
         return len(self.nome_completo())
 
 
-emp_1 = Employee('Corey', 'Schafer', 50000)
+emp_1 = Employee('Flavio', 'Alvarenga', 50000)
 emp_2 = Employee('Test', 'Employee', 60000)
 
 print(emp_1)  # Lembre que antes de implementar __repre_ a print imprimia <__main__.Employee object at (endereço)>
