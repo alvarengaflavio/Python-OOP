@@ -39,7 +39,7 @@ class Developer(Employee):      # Com esse parantêses dizemos que vamos herdar 
 
 
 # pronto! sem nenhum código já herdamos toda a funcionalidade (atributos e métodos) de Employee.
-dev_1 = Developer('Corey', 'Schafer', 50000)
+dev_1 = Developer('Flavio', 'Alvarenga', 50000)
 dev_2 = Developer('Test', 'Developer', 60000)
 print(dev_1.email)
 print(dev_2.email)
@@ -55,7 +55,7 @@ class Developer(Employee):      # Com esse parantêses dizemos que vamos herdar 
     raise_amount = 1.10
 
 
-dev_1 = Developer('Corey', 'Schafer', 50000)
+dev_1 = Developer('Flavio', 'Alvarenga', 50000)
 print(dev_1.pay)
 dev_1.aumento_sal()
 print(dev_1.pay)    # Veja que agora ele pega o aumento de 10% antes de olhar em Employee o valor de 4%
@@ -75,7 +75,7 @@ class Developer(Employee):      # Com esse parantêses dizemos que vamos herdar 
         self.prog_lang = prog_lang
 
 
-dev_1 = Developer('Corey', 'Schafer', 50000, 'Python')
+dev_1 = Developer('Flavio', 'Alvarenga', 50000, 'Python')
 dev_2 = Developer('Test', 'Developer', 60000, 'Java')
 
 print(dev_1.email)
@@ -107,7 +107,7 @@ class Manager(Employee):
             print(' --> ', emp.nome_completo())
 
 
-mgr_1 = Manager('Sue', 'Smith', 90000, [dev_1])
+mgr_1 = Manager('Meu', 'Chefe', 90000, [dev_1])
 
 print(mgr_1.email)
 
